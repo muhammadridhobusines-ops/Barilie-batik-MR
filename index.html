@@ -1,1 +1,659 @@
-<!DOCTYPE html><html lang='id'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Barilie Batik</title><style>body{font-family:Arial;margin:0;background:#f7f7f7}header{background:#2b1b16;color:#fff;padding:40px;text-align:center}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;padding:20px}img{width:100%;border-radius:10px}.btn{background:#c89b3c;color:#fff;padding:14px 24px;text-decoration:none;border-radius:8px;display:inline-block}</style></head><body><header><h1>Slimfit Batik TER-ENAK!!</h1><p>Diskon 10% All Item</p><a class='btn' href='https://wa.me/6285754563358'>Pesan via WhatsApp</a></header><div class='gallery'><img src='1000102932.jpg'><img src='1000102934.jpg'><img src='1000102936.png'><img src='1000102938.png'><img src='1000102940.jpg'></div></body></html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barilie Batik | Slimfit Batik TER-ENAK!!</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#faf7f2;
+color:#222;
+}
+
+header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:rgba(35,25,18,.95);
+backdrop-filter:blur(10px);
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:999;
+}
+
+.logo{
+font-size:28px;
+font-weight:800;
+color:#d8b36a;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#d8b36a;
+}
+
+.hero{
+
+height:100vh;
+
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+url("1000102932.jpg");
+
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+padding:20px;
+
+}
+
+.hero-content{
+
+max-width:800px;
+color:white;
+
+}
+
+.badge{
+
+display:inline-block;
+
+background:#c62828;
+
+padding:8px 18px;
+
+border-radius:50px;
+
+font-weight:bold;
+
+margin-bottom:20px;
+
+}
+
+.hero h1{
+
+font-size:58px;
+
+margin-bottom:20px;
+
+line-height:1.2;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+opacity:.95;
+
+margin-bottom:30px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+padding:16px 35px;
+
+background:#d4a93c;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:8px;
+
+font-weight:700;
+
+margin:10px;
+
+transition:.3s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-3px);
+
+background:#b88824;
+
+}
+
+.section{
+
+padding:90px 8%;
+
+}
+
+.title{
+
+text-align:center;
+
+font-size:40px;
+
+margin-bottom:50px;
+
+color:#4d2f17;
+
+}
+
+.gallery{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:20px;
+
+}
+
+.gallery img{
+
+width:100%;
+
+border-radius:15px;
+
+transition:.4s;
+
+box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
+
+.features{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+}
+
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+text-align:center;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.card h3{
+
+margin:15px 0;
+
+color:#8b5a2b;
+
+}
+
+.promo{
+
+background:#7b1113;
+
+color:white;
+
+text-align:center;
+
+padding:80px 20px;
+
+}
+
+#countdown{
+
+font-size:38px;
+
+font-weight:bold;
+
+margin:30px 0;
+
+}
+
+.testi{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:20px;
+
+}
+
+.testi-box{
+
+background:white;
+
+padding:25px;
+
+border-radius:15px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+
+}
+
+.faq{
+
+margin-top:40px;
+
+}
+
+.faq details{
+
+background:white;
+
+margin-bottom:15px;
+
+padding:18px;
+
+border-radius:10px;
+
+}
+
+footer{
+
+background:#221710;
+
+color:white;
+
+text-align:center;
+
+padding:50px 20px;
+
+}
+
+.wa{
+
+position:fixed;
+
+bottom:20px;
+
+right:20px;
+
+width:65px;
+
+height:65px;
+
+border-radius:50%;
+
+background:#25D366;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:32px;
+
+color:white;
+
+text-decoration:none;
+
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+
+z-index:999;
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+nav{
+
+display:none;
+
+}
+
+.title{
+
+font-size:30px;
+
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">BARILIE BATIK</div>
+
+<nav>
+
+<a href="#produk">Produk</a>
+
+<a href="#keunggulan">Keunggulan</a>
+
+<a href="#testimoni">Testimoni</a>
+
+<a href="#promo">Promo</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="badge">🔥 DISKON 10% ALL ITEM</div>
+
+<h1>Slimfit Batik TER-ENAK!!</h1>
+
+<p>Tampil Elegan, Modern, dan Nyaman Dipakai Seharian.</p>
+
+<a href="https://wa.me/6285754563358" class="btn">
+Pesan Sekarang
+</a>
+
+<a href="#produk" class="btn">
+Lihat Koleksi
+</a>
+
+</div>
+
+</section>
+
+  <!-- PRODUK -->
+<section class="section" id="produk">
+
+<h2 class="title">Koleksi Slimfit Batik</h2>
+
+<div class="gallery">
+
+<img src="1000102932.jpg" alt="Batik 1">
+
+<img src="1000102934.jpg" alt="Batik 2">
+
+<img src="1000102936.png" alt="Batik 3">
+
+<img src="1000102938.png" alt="Batik 4">
+
+<img src="1000102940.jpg" alt="Batik 5">
+
+</div>
+
+</section>
+
+<!-- KEUNGGULAN -->
+<section class="section" id="keunggulan">
+
+<h2 class="title">Kenapa Memilih Barilie Batik?</h2>
+
+<div class="features">
+
+<div class="card">
+<h3>✨ Eksklusif</h3>
+<p>Motif modern dan elegan yang cocok untuk acara formal maupun santai.</p>
+</div>
+
+<div class="card">
+<h3>☁️ Nyaman</h3>
+<p>Bahan premium yang adem, lembut, dan nyaman dipakai sepanjang hari.</p>
+</div>
+
+<div class="card">
+<h3>💰 Terjangkau</h3>
+<p>Kualitas premium dengan harga yang tetap bersahabat.</p>
+</div>
+
+<div class="card">
+<h3>🚚 Siap Kirim</h3>
+<p>Melayani pengiriman ke seluruh Indonesia dengan packing aman.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- TESTIMONI -->
+<section class="section" id="testimoni">
+
+<h2 class="title">Apa Kata Pembeli?</h2>
+
+<div class="testi">
+
+<div class="testi-box">
+⭐⭐⭐⭐⭐
+<h3>Andi - Banjarmasin</h3>
+<p>"Bahannya adem, jahitannya rapi, slimfit-nya pas. Sangat puas!"</p>
+</div>
+
+<div class="testi-box">
+⭐⭐⭐⭐⭐
+<h3>Rizal - Sampit</h3>
+<p>"Motifnya elegan. Dipakai kerja terlihat lebih percaya diri."</p>
+</div>
+
+<div class="testi-box">
+⭐⭐⭐⭐⭐
+<h3>Fahmi - Palangka Raya</h3>
+<p>"Harga terjangkau, kualitas di atas ekspektasi."</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROMO -->
+<section class="promo" id="promo">
+
+<h1>🎉 DISKON 10% ALL ITEM 🎉</h1>
+
+<p>Promo berlaku sampai</p>
+
+<h2>22 November 2026</h2>
+
+<div id="countdown"></div>
+
+<a class="btn" href="https://wa.me/6285754563358?text=Halo%20Barilie,%20saya%20ingin%20klaim%20diskon%2010%25">
+KLAIM DISKON SEKARANG
+</a>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="section">
+
+<h2 class="title">Pertanyaan Umum</h2>
+
+<div class="faq">
+
+<details>
+<summary>Apakah tersedia ukuran lengkap?</summary>
+<p>Tersedia ukuran S, M, L, XL, XXL hingga XXXL.</p>
+</details>
+
+<details>
+<summary>Apakah bisa dikirim ke seluruh Indonesia?</summary>
+<p>Ya, kami melayani pengiriman ke seluruh Indonesia.</p>
+</details>
+
+<details>
+<summary>Bagaimana cara pemesanan?</summary>
+<p>Klik tombol WhatsApp dan admin akan membantu proses pemesanan.</p>
+</details>
+
+</div>
+
+</section>
+<!-- FOOTER -->
+<footer>
+
+<h2>BARILIE BATIK</h2>
+
+<p>Style That Grows With You</p>
+
+<br>
+
+<p>📱 WhatsApp : 0857-5456-3358</p>
+
+<p>🚚 Melayani Pengiriman Seluruh Indonesia</p>
+
+<br>
+
+<p>© 2026 Barilie Batik. All Rights Reserved.</p>
+
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+
+<a
+class="wa"
+href="https://wa.me/6285754563358?text=Halo%20Barilie,%20saya%20ingin%20memesan%20Slimfit%20Batik"
+target="_blank">
+
+💬
+
+</a>
+
+<script>
+
+// =======================
+// COUNTDOWN
+// =======================
+
+const target = new Date("Nov 22, 2026 23:59:59").getTime();
+
+const hitung = setInterval(function(){
+
+const sekarang = new Date().getTime();
+
+const jarak = target - sekarang;
+
+if(jarak < 0){
+
+clearInterval(hitung);
+
+document.getElementById("countdown").innerHTML="PROMO BERAKHIR";
+
+return;
+
+}
+
+const hari=Math.floor(jarak/(1000*60*60*24));
+
+const jam=Math.floor((jarak%(1000*60*60*24))/(1000*60*60));
+
+const menit=Math.floor((jarak%(1000*60*60))/60000);
+
+const detik=Math.floor((jarak%60000)/1000);
+
+document.getElementById("countdown").innerHTML=
+hari+" Hari "+
+jam+" Jam "+
+menit+" Menit "+
+detik+" Detik";
+
+},1000);
+
+// =======================
+// ANIMASI SAAT SCROLL
+// =======================
+
+const cards=document.querySelectorAll(".card,.gallery img,.testi-box");
+
+window.addEventListener("scroll",()=>{
+
+cards.forEach(card=>{
+
+const posisi=card.getBoundingClientRect().top;
+
+const layar=window.innerHeight;
+
+if(posisi<layar-80){
+
+card.style.opacity="1";
+
+card.style.transform="translateY(0)";
+
+}
+
+});
+
+});
+
+cards.forEach(card=>{
+
+card.style.opacity="0";
+
+card.style.transform="translateY(40px)";
+
+card.style.transition=".7s";
+
+});
+
+// =======================
+// HEADER BERUBAH SAAT SCROLL
+// =======================
+
+window.addEventListener("scroll",function(){
+
+const header=document.querySelector("header");
+
+if(window.scrollY>80){
+
+header.style.background="#221710";
+
+}else{
+
+header.style.background="rgba(35,25,18,.95)";
+
+}
+
+});
+
+</script>
+
+</body>
+
+</html>
